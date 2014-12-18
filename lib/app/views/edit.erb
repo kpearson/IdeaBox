@@ -1,0 +1,25 @@
+<div class="hero-unit">
+  <div class="row">
+    <div class="span3 offset4">
+      <a href="/"><h1>IdeaBox</h1></a>
+      <br><br>
+      <fieldset>
+        <form action='/<%= idea.id %>' method='POST'>
+          <p>
+            <% if idea.id %>
+              Edit your idea:
+            <% else %>
+              Your Idea:
+            <% end %>
+          </p>
+          <% if idea.id %>
+            <input type="hidden" name="_method" value="PUT" />
+          <% end %>
+          <input type='text' name='idea[title]' value="<%= idea.title %>"/><br/>
+          <textarea name='idea[description]'><%= idea.description %></textarea><br/>
+          <input class="btn btn-primary" type='submit'/>
+        </form>
+      </fieldset>
+    </div>
+  </div>
+</div>

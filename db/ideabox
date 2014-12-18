@@ -1,18 +1,22 @@
 ---
 ideas:
-- id: 0
-  title: ddf
-  description: sdfsdf
-  rank: 6
-- id: 1
-  title: Giant cuckoo clock
-  description: Build an enormous cuckoo clock out of lots of regular cuckoo clocks.
-  rank: 0
-- id: 2
-  title: sdafa
-  description: sdfsf
-  rank: 6
 - id: 4
-  title: New Fangled
-  description: Ideas can get fangled if you let them.
+  title: This idea has a created_at
+  description: Awwww yeeeeah.
   rank: 0
+  created_at: 2014-12-18 15:29:56.349225000 -07:00
+- id: 5
+  title: Second timed idea
+  description: Here it is.
+  rank: 0
+  created_at: 2014-12-18 15:34:34.982508000 -07:00
+- id: 2
+  title: Third timed idea
+  description: tada
+  rank: 0
+  created_at: 2014-12-18 15:35:29.328331000 -07:00
+- id: 3
+  title: Really?
+  description: WHY
+  rank: 0
+  created_at: 2014-12-18 16:00:59.292668000 -07:00

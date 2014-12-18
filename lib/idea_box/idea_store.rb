@@ -10,6 +10,23 @@ class IdeaStore
     ideas
   end
 
+  def self.last
+    all.last
+  end
+
+  def self.empty?
+    last.nil?
+  end
+
+  def self.last_id
+    last.id.to_i
+  end
+
+  def self.next_id
+    return 1 if empty?
+    last_id + 1    
+  end
+
   def self.create(data)
     database.transaction do
       database['ideas'] << data
